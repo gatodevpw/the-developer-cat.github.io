@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <!doctype html>
 <html lang="en">
 
@@ -10,22 +12,27 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 
-<body>
+<body class="bg-light">
     <header class="container-fluid header bg-dark text-light">header</header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"">Logo</a>
+            <a class="navbar-brand" href="index.html"">
+                <div>
+                    <img class="rounded" src="img/logo.jpg" alt="logo" style="width: 70px; height: 70px;">
+                </div>
+            </a>
           <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <a class="navbar-brand" href="#">empresa</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="productos.html">Productos</a>
@@ -38,9 +45,9 @@
                 </div>
         </div>
     </nav>
-    <section class="seccion-principal container bg-success">
+    <section class="seccion-principal container-fluid p-3 mb-5 bg-body rounded">
 
-        <section class="slider bg-info">
+        <section class="slider bg-dark">
             <!-- Carousel -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -54,7 +61,7 @@
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                        <img src="img/la.jpg" alt="Los Angeles" class="d-block img-fluid" style="width:100%">
                     </div>
                     <div class="carousel-item">
                         <img src="img/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
@@ -73,35 +80,70 @@
                 </button>
             </div>
 
-           
+
 
         </section>
-        <section class="descripcion-del-proyecto bg-primary">
-            <article>
-                <h1>Descripcion del proyecto</h1>
+        <section class="descripcion-del-proyecto bg-light mt-5">
+            <article class="text-center">
+                <h1>Descripción del proyecto</h1>
+                <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, iure?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt.</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nulla?</p>
             </article>
         </section>
-        <section class="caracteristicas bg-warning">
-            <article>
-                <h2>Caracteristicas</h2>
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </li>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </li>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </li>
-                </ul>
-            </article>
+        <section class="caracteristicas mt-5 pt-3" style="background-color:bisque;">
+            <h2 class="text-center">Características</h2>
+            <section class="row">
+                <div class="col-md">
+                    
+                    <div class="card m-3 shadow">
+                        <div class="card-body">
+                          <h4 class="card-title">Caracteristica importante</h4>
+                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                          <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card m-3 shadow">
+                        <div class="card-body">
+                          <h4 class="card-title">Caracteristica 1</h4>
+                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                          <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm  ">
+                    <div class="card m-3 shadow">
+                        <div class="card-body">
+                          <h4 class="card-title">Caracteristica 2</h4>
+                          <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                          <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                      </div>
+                </div>
+            </section>
         </section>
     </section>
-    <footer class="container footer bg-danger">footer</footer>
+    <footer class="container-fluid footer bg-dark text-light mt-3">
+
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <h1>Empresa</h1>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="m-1">
+                    <img class="rounded float-end" src="img/logo.jpg" alt="logo" style="width: 70px; height: 70px;">
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
 </body>
 
 </html>
+>>>>>>> juan-slider
